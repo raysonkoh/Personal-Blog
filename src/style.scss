@@ -8,45 +8,49 @@ body {
     font-size: 1rem;
 }
 
-.nav {
+.main__nav {
     width: 100%;
     background: black;
     color: white;
+    padding: 0.7rem;
+    .main__nav--div {
+        height: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.5rem;
+        a {
+            margin: 0 1rem;
+        }
+
+        .fa-github {
+            color: white;
+        }
+
+        .fa-instagram {
+            color: purple;
+        }
+    }
+
 }
 
-// #img-1 {
-//     background: white;
-// }
+.main__nav--dropdown--menu {
 
-// .nav {
-//     background-color: rgb(0, 0, 0);
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     height: 2.5rem;
-//     font-size: 1.5rem;
-//     a {
-//         margin: 0 1rem;
-//         .fa-facebook-square {
-//             color: rgb(28, 89, 202);
-//         }
-//         .fa-github {
-//             color: white;
-//         }
-//         .fa-instagram {
-//             color: rgba(166, 65, 212, 0.712);
-//         }
-//     }
-// }
+    .main__nav--dropdown--list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
 
-// .btn-secondary {
-//     background-color: rgb(0, 0, 0);
-//     border: none;
-// }
+    .main__nav--dropdown--list--item {
+        list-style: none;
+        padding: 1rem 0 0 0.5rem;
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+    display: none;
 
-// .dropdown-menu {
-//     background-color: rgb(0, 0, 0);
-//     color: white;
-//     width: 100vw;
-//     margin: 0;
-// }
+}
