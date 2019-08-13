@@ -1,5 +1,6 @@
 * {
     font-family: 'Lexend Deca', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -62,6 +63,15 @@ body {
     }
     display: none;
 
+}
+
+footer {
+    text-align: center;
+    div {
+        background: black;
+        color: white;
+        padding: 1rem;
+    }
 }
 
 .open {

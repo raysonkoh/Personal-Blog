@@ -1,0 +1,30 @@
+.blog__template {
+  margin: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(rgba(221, 220, 220, 0.363), rgba(221, 220, 220, 0.663)); }
+  .blog__template a {
+    display: grid;
+    grid-template-rows: 1rem 2rem auto;
+    grid-template-areas: "featured" "title" "description";
+    text-decoration: none;
+    color: inherit;
+    grid-row-gap: 1rem; }
+  .blog__template .featured__picture {
+    grid-area: featured;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    color: #8b8989; }
+  .blog__template .blog__title {
+    grid-area: title;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #313131;
+    text-decoration: none; }
+  .blog__template .blog__description {
+    grid-area: description;
+    font-family: 'Slabo 27px', serif; }
+  .blog__template:hover, .blog__template:active {
+    background: lightgray; }
+
+/*# sourceMappingURL=style.css.map */

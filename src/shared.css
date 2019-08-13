@@ -1,5 +1,6 @@
 * {
-  font-family: 'Lexend Deca', sans-serif; }
+  font-family: 'Lexend Deca', sans-serif;
+  box-sizing: border-box; }
 
 body {
   margin: 0;
@@ -42,6 +43,13 @@ body {
     .main__nav--dropdown--menu .main__nav--dropdown--list--item a {
       text-decoration: none;
       color: inherit; }
+
+footer {
+  text-align: center; }
+  footer div {
+    background: black;
+    color: white;
+    padding: 1rem; }
 
 .open {
   display: block; }
