@@ -1,11 +1,13 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-    entry: './src/js/index.js',
+    entry: {
+        homepage: './src/homepage/js/index.js',
+        blogs: './src/blogs/js/index.js',
+    },
     output: {
-        filename: 'bundle.js',
+        filename: '[name]/index.js',
         path: path.resolve(__dirname,'dist')
     },
     devServer: {
@@ -13,18 +15,23 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            filename: 'index.html',
-            template: './src/index.html'
+            inject: true,
+            chunks: ['homepage'],
+            filename: 'homepage/index.html',
+            template: './src/homepage/index.html'
         }),
-        new MiniCssExtractPlugin({
-            filename: 'style.css'
-        })
+        new HtmlWebpackPlugin({
+            inject: true,
+            chunks: ['blogs'],
+            filename: 'blogs/index.html',
+            template: './src/blogs/blogs.html'
+        }),
     ],
     module: {
         rules: [
             {
                 test: /\.css$/,
-                use:  [  'style-loader', MiniCssExtractPlugin.loader, 'css-loader']
+                use:  [  'style-loader', 'css-loader']
             }
         ]
     }
