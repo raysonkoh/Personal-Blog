@@ -1,11 +1,15 @@
+* {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
 }
 
 .header__title {
-    color: blue;
     font-size: 1rem;
+    text-align: center;
 }
 
 .main__nav {
@@ -23,12 +27,16 @@ body {
             margin: 0 1rem;
         }
 
+        .fa-facebook-square {
+            color: rgb(40, 40, 240);
+        }
+
         .fa-github {
             color: white;
         }
 
         .fa-instagram {
-            color: purple;
+            color: rgba(240, 41, 240, 0.87);
         }
     }
 
@@ -53,4 +61,8 @@ body {
     }
     display: none;
 
+}
+
+.open {
+    display: block;
 }

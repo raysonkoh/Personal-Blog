@@ -1,10 +1,13 @@
+* {
+  font-family: 'Lexend Deca', sans-serif; }
+
 body {
   margin: 0;
   padding: 0; }
 
 .header__title {
-  color: blue;
-  font-size: 1rem; }
+  font-size: 1rem;
+  text-align: center; }
 
 .main__nav {
   width: 100%;
@@ -19,10 +22,12 @@ body {
     font-size: 1.5rem; }
     .main__nav .main__nav--div a {
       margin: 0 1rem; }
+    .main__nav .main__nav--div .fa-facebook-square {
+      color: #2828f0; }
     .main__nav .main__nav--div .fa-github {
       color: white; }
     .main__nav .main__nav--div .fa-instagram {
-      color: purple; }
+      color: rgba(240, 41, 240, 0.87); }
 
 .main__nav--dropdown--menu {
   display: none; }
@@ -37,5 +42,8 @@ body {
     .main__nav--dropdown--menu .main__nav--dropdown--list--item a {
       text-decoration: none;
       color: inherit; }
+
+.open {
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */
