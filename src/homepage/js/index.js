@@ -19,3 +19,11 @@ DOM_strings.nav__selector.addEventListener('change', e => {
         }
     }
 })
+
+window.addEventListener('load', e => {
+    DOM_strings.nav__selector.value = 'Latest Posts';
+    if (!(Array.from(DOM_strings.latest__blogs.classList).includes('open'))) {
+        DOM_strings.latest__blogs.classList.add('open');
+        DOM_strings.top__blogs.classList.remove('open');
+    }
+})
