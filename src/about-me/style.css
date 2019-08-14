@@ -1,0 +1,26 @@
+main {
+  width: 90%;
+  background: radial-gradient(rgba(112, 111, 111, 0.656), rgba(224, 224, 224, 0.418));
+  border-radius: 10%;
+  margin: auto; }
+  main .featured__picture {
+    background-image: url("../profile_pic.jpg");
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15rem;
+    margin: 1rem;
+    margin-bottom: 0; }
+  main .about__me--description {
+    padding: 0.5rem;
+    text-align: center; }
+    main .about__me--description p {
+      margin-top: 0;
+      font-size: 1.3rem; }
+    main .about__me--description ol {
+      list-style: square;
+      text-align: left; }
+      main .about__me--description ol li {
+        margin: 0.3rem 0.2rem; }
+
+/*# sourceMappingURL=style.css.map */

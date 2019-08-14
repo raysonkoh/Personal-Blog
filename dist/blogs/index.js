@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"h1 {\\n  color: blue;\\n  font-size: 5rem; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/blogs/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/blogs/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -132,6 +132,18 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 
 /***/ }),
 
+/***/ "./src/DOM.js":
+/*!********************!*\
+  !*** ./src/DOM.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    dropdown__selector: document.querySelector('.main__nav--div--dropdown'),\n    dropdown__menu: document.querySelector('.main__nav--dropdown--menu'),\n    nav__selector: document.querySelector('.main__nav--div--select'),\n    latest__blogs: document.querySelector('.blog__latest'),\n    top__blogs: document.querySelector('.blog__top'),\n}); \n\n//# sourceURL=webpack:///./src/DOM.js?");
+
+/***/ }),
+
 /***/ "./src/blogs/js/index.js":
 /*!*******************************!*\
   !*** ./src/blogs/js/index.js ***!
@@ -140,7 +152,7 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style.css */ \"./src/blogs/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared.css */ \"./src/shared.css\");\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_shared_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack:///./src/blogs/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared.css */ \"./src/shared.css\");\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_shared_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style.css */ \"./src/blogs/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _DOM__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../DOM */ \"./src/DOM.js\");\n\n\n\n\n_DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__selector.addEventListener('click', e => {\n    _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__menu.classList.toggle('open');\n})\n\n\n//# sourceURL=webpack:///./src/blogs/js/index.js?");
 
 /***/ }),
 
