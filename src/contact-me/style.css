@@ -1,0 +1,17 @@
+main {
+  height: 80%;
+  color: white; }
+  main .featured__picture {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(rgba(100, 100, 100, 0.7), rgba(201, 189, 189, 0.4)), url(../contact-me_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    top: 9rem;
+    z-index: -1; }
+  main .contact__details {
+    padding: 2rem;
+    line-height: 2rem; }
+
+/*# sourceMappingURL=style.css.map */
