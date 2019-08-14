@@ -1,8 +1,13 @@
+.blog__latest,
+.blog__top {
+  display: none; }
+
 .blog__template {
   margin: 1rem;
   padding: 1rem;
   margin-bottom: 2rem;
-  background: linear-gradient(rgba(221, 220, 220, 0.363), rgba(221, 220, 220, 0.663)); }
+  background: linear-gradient(rgba(221, 220, 220, 0.363), rgba(221, 220, 220, 0.663));
+  border-radius: 3%; }
   .blog__template a {
     display: grid;
     grid-template-rows: 1rem 2rem auto;

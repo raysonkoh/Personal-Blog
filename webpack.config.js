@@ -5,6 +5,7 @@ module.exports = {
     entry: {
         homepage: './src/homepage/js/index.js',
         blogs: './src/blogs/js/index.js',
+        about_me: './src/about-me/js/index.js'
     },
     output: {
         filename: '[name]/index.js',
@@ -26,6 +27,12 @@ module.exports = {
             filename: 'blogs/index.html',
             template: './src/blogs/blogs.html'
         }),
+        new HtmlWebpackPlugin({
+            inject: true,
+            chunks: ['about_me'],
+            filename: 'about_me/index.html',
+            template: './src/about-me/index.html'
+        })
     ],
     module: {
         rules: [

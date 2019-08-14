@@ -93,7 +93,18 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"* {\\n  font-family: 'Lexend Deca', sans-serif; }\\n\\nbody {\\n  margin: 0;\\n  padding: 0; }\\n\\n.header__title {\\n  font-size: 1rem;\\n  text-align: center; }\\n\\n.main__nav {\\n  width: 100%;\\n  background: black;\\n  color: white;\\n  padding: 0.7rem; }\\n  .main__nav .main__nav--div {\\n    height: 2.5rem;\\n    display: flex;\\n    flex-direction: row;\\n    align-items: center;\\n    font-size: 1.5rem; }\\n    .main__nav .main__nav--div a {\\n      margin: 0 1rem; }\\n    .main__nav .main__nav--div .fa-facebook-square {\\n      color: #2828f0; }\\n    .main__nav .main__nav--div .fa-github {\\n      color: white; }\\n    .main__nav .main__nav--div .fa-instagram {\\n      color: rgba(240, 41, 240, 0.87); }\\n\\n.main__nav--dropdown--menu {\\n  display: none; }\\n  .main__nav--dropdown--menu .main__nav--dropdown--list {\\n    display: flex;\\n    flex-direction: column;\\n    align-items: flex-start;\\n    padding: 0; }\\n  .main__nav--dropdown--menu .main__nav--dropdown--list--item {\\n    list-style: none;\\n    padding: 1rem 0 0 0.5rem; }\\n    .main__nav--dropdown--menu .main__nav--dropdown--list--item a {\\n      text-decoration: none;\\n      color: inherit; }\\n\\n.open {\\n  display: block; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/homepage/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".blog__latest,\\n.blog__top {\\n  display: none; }\\n\\n.blog__template {\\n  margin: 1rem;\\n  padding: 1rem;\\n  margin-bottom: 2rem;\\n  background: linear-gradient(rgba(221, 220, 220, 0.363), rgba(221, 220, 220, 0.663));\\n  border-radius: 3%; }\\n  .blog__template a {\\n    display: grid;\\n    grid-template-rows: 1rem 2rem auto;\\n    grid-template-areas: \\\"featured\\\" \\\"title\\\" \\\"description\\\";\\n    text-decoration: none;\\n    color: inherit;\\n    grid-row-gap: 1rem; }\\n  .blog__template .featured__picture {\\n    grid-area: featured;\\n    font-family: 'Montserrat', sans-serif;\\n    font-size: 0.75rem;\\n    color: #8b8989; }\\n  .blog__template .blog__title {\\n    grid-area: title;\\n    font-size: 1.6rem;\\n    font-weight: bold;\\n    color: #313131;\\n    text-decoration: none; }\\n  .blog__template .blog__description {\\n    grid-area: description;\\n    font-family: 'Slabo 27px', serif; }\\n  .blog__template:hover, .blog__template:active {\\n    background: lightgray; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/homepage/style.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/shared.css":
+/*!**************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/shared.css ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"* {\\n  font-family: 'Lexend Deca', sans-serif;\\n  box-sizing: border-box; }\\n\\nhtml {\\n  height: 100%; }\\n\\nbody {\\n  position: relative;\\n  margin: 0;\\n  padding: 0;\\n  min-height: 100%;\\n  padding-bottom: 3.25rem; }\\n\\n.header__title {\\n  font-size: 1rem;\\n  text-align: center; }\\n\\n.main__nav {\\n  width: 100%;\\n  background: black;\\n  color: white;\\n  padding: 0.7rem; }\\n  .main__nav .main__nav--div {\\n    height: 2.5rem;\\n    display: flex;\\n    flex-direction: row;\\n    align-items: center;\\n    font-size: 1.5rem; }\\n    .main__nav .main__nav--div a {\\n      margin: 0 1rem; }\\n    .main__nav .main__nav--div .fa-facebook-square {\\n      color: #2828f0; }\\n    .main__nav .main__nav--div .fa-github {\\n      color: white; }\\n    .main__nav .main__nav--div .fa-instagram {\\n      color: rgba(240, 41, 240, 0.87); }\\n    .main__nav .main__nav--div .main__nav--div--select {\\n      margin-left: auto;\\n      font-size: 0.9rem; }\\n\\n.main__nav--dropdown--menu {\\n  display: none; }\\n  .main__nav--dropdown--menu .main__nav--dropdown--list {\\n    display: flex;\\n    flex-direction: column;\\n    align-items: flex-start;\\n    padding: 0; }\\n  .main__nav--dropdown--menu .main__nav--dropdown--list--item {\\n    list-style: none;\\n    padding: 1rem 0 0 0.5rem; }\\n    .main__nav--dropdown--menu .main__nav--dropdown--list--item a {\\n      text-decoration: none;\\n      color: inherit; }\\n\\nfooter {\\n  text-align: center;\\n  position: absolute;\\n  height: 3.25rem;\\n  width: 100vw;\\n  bottom: 0; }\\n  footer div {\\n    background: black;\\n    color: white;\\n    padding: 1rem; }\\n\\n.open {\\n  display: block !important; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/shared.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -121,15 +132,15 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 
 /***/ }),
 
-/***/ "./src/homepage/js/DOM.js":
-/*!********************************!*\
-  !*** ./src/homepage/js/DOM.js ***!
-  \********************************/
+/***/ "./src/DOM.js":
+/*!********************!*\
+  !*** ./src/DOM.js ***!
+  \********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    dropdown__selector: document.querySelector('.main__nav--div--dropdown'),\n    dropdown__menu: document.querySelector('.main__nav--dropdown--menu')\n}); \n\n//# sourceURL=webpack:///./src/homepage/js/DOM.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    dropdown__selector: document.querySelector('.main__nav--div--dropdown'),\n    dropdown__menu: document.querySelector('.main__nav--dropdown--menu'),\n    nav__selector: document.querySelector('.main__nav--div--select'),\n    latest__blogs: document.querySelector('.blog__latest'),\n    top__blogs: document.querySelector('.blog__top'),\n}); \n\n//# sourceURL=webpack:///./src/DOM.js?");
 
 /***/ }),
 
@@ -141,7 +152,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _DOM__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DOM */ \"./src/homepage/js/DOM.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style.css */ \"./src/homepage/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n_DOM__WEBPACK_IMPORTED_MODULE_0__[\"default\"].dropdown__selector.addEventListener('click', e => {\n    _DOM__WEBPACK_IMPORTED_MODULE_0__[\"default\"].dropdown__menu.classList.toggle('open');\n})\n\n//# sourceURL=webpack:///./src/homepage/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared.css */ \"./src/shared.css\");\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_shared_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style.css */ \"./src/homepage/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _DOM__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../DOM */ \"./src/DOM.js\");\n\n\n\n\n_DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__selector.addEventListener('click', e => {\n    _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__menu.classList.toggle('open');\n})\n\n_DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].nav__selector.addEventListener('change', e => {\n    if (e.target.value === 'Latest Posts') {\n        if (!(Array.from(_DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].latest__blogs.classList).includes('open'))) {\n            _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].latest__blogs.classList.add('open');\n            _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].top__blogs.classList.remove('open');\n        }\n    } else if (e.target.value === 'Top Posts') {\n        if (!(Array.from(_DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].top__blogs.classList).includes('open'))) {\n            _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].latest__blogs.classList.remove('open');\n            _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].top__blogs.classList.add('open');\n        }\n    }\n})\n\n//# sourceURL=webpack:///./src/homepage/js/index.js?");
 
 /***/ }),
 
@@ -153,6 +164,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _DOM
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/homepage/style.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/homepage/style.css?");
+
+/***/ }),
+
+/***/ "./src/shared.css":
+/*!************************!*\
+  !*** ./src/shared.css ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!./shared.css */ \"./node_modules/css-loader/dist/cjs.js!./src/shared.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/shared.css?");
 
 /***/ })
 
