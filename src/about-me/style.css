@@ -17,10 +17,17 @@ main {
     main .about__me--description p {
       margin-top: 0;
       font-size: 1.3rem; }
+      @media (max-width: 520px) {
+        main .about__me--description p {
+          font-size: 1.1rem; } }
     main .about__me--description ol {
       list-style: square;
       text-align: left; }
       main .about__me--description ol li {
+        font-size: 1rem;
         margin: 0.3rem 0.2rem; }
+        @media (max-width: 520px) {
+          main .about__me--description ol li {
+            font-size: 0.8rem; } }
 
 /*# sourceMappingURL=style.css.map */
