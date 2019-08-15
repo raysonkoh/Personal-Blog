@@ -5,6 +5,10 @@ main {
   grid-template-rows: minmax(15rem) minmax(15rem) minmax(15rem);
   grid-row-gap: 1rem;
   grid-column-gap: 1rem; }
+  @media (max-width: 520px) {
+    main {
+      grid-column-gap: 0.5rem;
+      padding: 1rem 0; } }
   main .box {
     background: #f1e2e2; }
     main .box a {

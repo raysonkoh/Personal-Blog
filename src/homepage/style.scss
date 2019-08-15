@@ -31,11 +31,17 @@
         font-weight: bold;
         color: rgb(49, 49, 49);
         text-decoration: none;
+        @media (max-width: 520px) {
+            font-size: 1.2rem;
+        }
     }
 
     .blog__description {
         grid-area: description;
         font-family: 'Slabo 27px', serif;
+        @media (max-width: 520px) {
+            font-size: 0.8rem;
+        }
     }
     &:hover,
     &:active {

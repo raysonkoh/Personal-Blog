@@ -26,9 +26,15 @@
     font-weight: bold;
     color: #313131;
     text-decoration: none; }
+    @media (max-width: 520px) {
+      .blog__template .blog__title {
+        font-size: 1.2rem; } }
   .blog__template .blog__description {
     grid-area: description;
     font-family: 'Slabo 27px', serif; }
+    @media (max-width: 520px) {
+      .blog__template .blog__description {
+        font-size: 0.8rem; } }
   .blog__template:hover, .blog__template:active {
     background: lightgray; }
 
