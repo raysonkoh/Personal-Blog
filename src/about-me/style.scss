@@ -10,11 +10,7 @@ main {
         margin: auto;
         text-align: center;
         .featured__picture {
-            background-image: url('../profile_pic.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 0% 55%;
-            height: 350px;
+            max-width: 100%;
             border-radius: 50%;
             border: 2px solid darkgreen;
         }
