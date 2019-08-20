@@ -2,15 +2,19 @@ main {
   width: 90%;
   background: radial-gradient(rgba(112, 111, 111, 0.656), rgba(224, 224, 224, 0.418));
   border-radius: 10%;
-  margin: auto; }
-  main .featured__picture {
-    background-image: url("../profile_pic.jpg");
-    background-size: 30%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 15rem;
-    margin: 1rem;
-    margin-bottom: 0; }
+  margin: 1rem auto; }
+  main .featured__picture--container {
+    width: 40%;
+    margin: auto;
+    text-align: center; }
+    main .featured__picture--container .featured__picture {
+      background-image: url("../profile_pic.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0% 55%;
+      height: 350px;
+      border-radius: 50%;
+      border: 2px solid darkgreen; }
   main .about__me--description {
     padding: 0.5rem;
     text-align: center; }
