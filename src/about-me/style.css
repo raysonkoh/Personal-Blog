@@ -9,7 +9,7 @@ main {
     main .featured__picture--container .featured__picture {
       max-width: 100%;
       border-radius: 50%;
-      border: 2px solid darkgreen; }
+      border: 2px solid black; }
   main .about__me--description {
     padding: 0.5rem;
     text-align: center; }
