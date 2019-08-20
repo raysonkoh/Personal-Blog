@@ -1,7 +1,6 @@
 main {
   width: 90%;
   background: radial-gradient(rgba(112, 111, 111, 0.656), rgba(224, 224, 224, 0.418));
-  border-radius: 10%;
   margin: 1rem auto; }
   main .featured__picture--container {
     width: 40%;
