@@ -1,5 +1,5 @@
 import '../../shared.css';
-import '../style.css';
+import '../style/style.css';
 import DOM_strings from '../../DOM';
 
 DOM_strings.dropdown__selector.addEventListener('click', e => {
