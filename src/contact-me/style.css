@@ -4,7 +4,7 @@ main {
   main .featured__picture {
     position: fixed;
     width: 100%;
-    background: linear-gradient(rgba(100, 100, 100, 0.7), rgba(201, 189, 189, 0.4)), url(../contact-me_background.jpg);
+    background: linear-gradient(rgba(100, 100, 100, 0.7), rgba(201, 189, 189, 0.4)), url(../images/contact-me_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
