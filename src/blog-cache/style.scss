@@ -12,6 +12,14 @@ main {
     p {
         font-size: 1rem;
     }
+
+    .img__container {
+        width: 100%;
+        text-align: center;
+        img {
+            width: 80%;
+        }
+    }
 }
 
 .highlight {

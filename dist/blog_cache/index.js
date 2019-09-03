@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/blogs/blog-cache/js/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/blog-cache/js/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/blogs/blog-cache/style.css":
-/*!******************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/blogs/blog-cache/style.css ***!
-  \******************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/blog-cache/style.css":
+/*!************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/blog-cache/style.css ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"main {\\n  padding: 1rem; }\\n  main h1 {\\n    font-size: 2rem;\\n    margin: 1.5rem 0;\\n    text-align: center; }\\n  main h2 {\\n    font-size: 1.5rem;\\n    margin: 1rem 0; }\\n  main p {\\n    font-size: 1rem; }\\n\\n.highlight {\\n  background-color: #eeee09; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/blogs/blog-cache/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"main {\\n  padding: 1rem; }\\n  main h1 {\\n    font-size: 2rem;\\n    margin: 1.5rem 0;\\n    text-align: center; }\\n  main h2 {\\n    font-size: 1.5rem;\\n    margin: 1rem 0; }\\n  main p {\\n    font-size: 1rem; }\\n  main .img__container {\\n    width: 100%;\\n    text-align: center; }\\n    main .img__container img {\\n      width: 80%; }\\n\\n.highlight {\\n  background-color: #eeee09; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/blog-cache/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -144,26 +144,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./src/blogs/blog-cache/js/index.js":
-/*!******************************************!*\
-  !*** ./src/blogs/blog-cache/js/index.js ***!
-  \******************************************/
+/***/ "./src/blog-cache/js/index.js":
+/*!************************************!*\
+  !*** ./src/blog-cache/js/index.js ***!
+  \************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../shared.css */ \"./src/shared.css\");\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_shared_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style.css */ \"./src/blogs/blog-cache/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _DOM__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../DOM */ \"./src/DOM.js\");\n\n\n\n\n_DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__selector.addEventListener('click', e => {\n    _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__menu.classList.toggle('open');\n})\n\n\n//# sourceURL=webpack:///./src/blogs/blog-cache/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared.css */ \"./src/shared.css\");\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_shared_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style.css */ \"./src/blog-cache/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _DOM__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../DOM */ \"./src/DOM.js\");\n\n\n\n\n_DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__selector.addEventListener('click', e => {\n    _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__menu.classList.toggle('open');\n})\n\n\n//# sourceURL=webpack:///./src/blog-cache/js/index.js?");
 
 /***/ }),
 
-/***/ "./src/blogs/blog-cache/style.css":
-/*!****************************************!*\
-  !*** ./src/blogs/blog-cache/style.css ***!
-  \****************************************/
+/***/ "./src/blog-cache/style.css":
+/*!**********************************!*\
+  !*** ./src/blog-cache/style.css ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/blogs/blog-cache/style.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/blogs/blog-cache/style.css?");
+eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/blog-cache/style.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/blog-cache/style.css?");
 
 /***/ }),
 

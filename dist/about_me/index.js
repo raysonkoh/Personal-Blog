@@ -86,14 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/about-me/style.css":
-/*!**********************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/about-me/style.css ***!
-  \**********************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/about-me/style/style.css":
+/*!****************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/about-me/style/style.css ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"main {\\n  width: 90%;\\n  background: radial-gradient(rgba(112, 111, 111, 0.656), rgba(224, 224, 224, 0.418));\\n  margin: 1rem auto; }\\n  main .featured__picture--container {\\n    width: 40%;\\n    margin: auto;\\n    text-align: center; }\\n    main .featured__picture--container .featured__picture {\\n      max-width: 100%;\\n      border-radius: 50%;\\n      border: 2px solid black; }\\n  main .about__me--description {\\n    padding: 0.5rem;\\n    text-align: center; }\\n    main .about__me--description p {\\n      margin-top: 0;\\n      font-size: 1.3rem; }\\n      @media (max-width: 520px) {\\n        main .about__me--description p {\\n          font-size: 1.1rem; } }\\n    main .about__me--description ol {\\n      list-style: square;\\n      text-align: left; }\\n      main .about__me--description ol li {\\n        font-size: 1rem;\\n        margin: 0.3rem 0.2rem; }\\n        @media (max-width: 520px) {\\n          main .about__me--description ol li {\\n            font-size: 0.8rem; } }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/about-me/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"main {\\n  width: 90%;\\n  background: radial-gradient(rgba(112, 111, 111, 0.656), rgba(224, 224, 224, 0.418));\\n  margin: 1rem auto; }\\n  main .featured__picture--container {\\n    width: 40%;\\n    margin: auto;\\n    text-align: center; }\\n    main .featured__picture--container .featured__picture {\\n      max-width: 100%;\\n      border-radius: 50%;\\n      border: 2px solid black; }\\n  main .about__me--description {\\n    padding: 0.5rem;\\n    text-align: center; }\\n    main .about__me--description p {\\n      margin-top: 0;\\n      font-size: 1.3rem; }\\n      @media (max-width: 520px) {\\n        main .about__me--description p {\\n          font-size: 1.1rem; } }\\n    main .about__me--description ol {\\n      list-style: square;\\n      text-align: left; }\\n      main .about__me--description ol li {\\n        font-size: 1rem;\\n        margin: 0.3rem 0.2rem; }\\n        @media (max-width: 520px) {\\n          main .about__me--description ol li {\\n            font-size: 0.8rem; } }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/about-me/style/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -152,18 +152,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared.css */ \"./src/shared.css\");\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_shared_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style.css */ \"./src/about-me/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _DOM__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../DOM */ \"./src/DOM.js\");\n\n\n\n\n_DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__selector.addEventListener('click', e => {\n    _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__menu.classList.toggle('open');\n})\n\n//# sourceURL=webpack:///./src/about-me/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared.css */ \"./src/shared.css\");\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_shared_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style/style.css */ \"./src/about-me/style/style.css\");\n/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _DOM__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../DOM */ \"./src/DOM.js\");\n\n\n\n\n_DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__selector.addEventListener('click', e => {\n    _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__menu.classList.toggle('open');\n})\n\n//# sourceURL=webpack:///./src/about-me/js/index.js?");
 
 /***/ }),
 
-/***/ "./src/about-me/style.css":
-/*!********************************!*\
-  !*** ./src/about-me/style.css ***!
-  \********************************/
+/***/ "./src/about-me/style/style.css":
+/*!**************************************!*\
+  !*** ./src/about-me/style/style.css ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/about-me/style.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/about-me/style.css?");
+eval("var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/about-me/style/style.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/about-me/style/style.css?");
 
 /***/ }),
 

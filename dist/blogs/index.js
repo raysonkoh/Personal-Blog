@@ -86,14 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/blogs/style.css":
-/*!*******************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/blogs/style.css ***!
-  \*******************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/blogs/style/style.css":
+/*!*************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/blogs/style/style.css ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"main {\\n  padding: 1rem;\\n  display: grid;\\n  grid-template-columns: 1fr 1fr;\\n  grid-template-rows: minmax(15rem) minmax(15rem) minmax(15rem);\\n  grid-row-gap: 1rem;\\n  grid-column-gap: 1rem; }\\n  @media (max-width: 520px) {\\n    main {\\n      grid-column-gap: 0.5rem;\\n      padding: 1rem 0; } }\\n  main .box {\\n    background: #f1e2e2; }\\n    main .box a {\\n      text-decoration: none;\\n      color: inherit; }\\n      main .box a p,\\n      main .box a h2 {\\n        padding: 1rem; }\\n    main .box .date__time {\\n      font-family: 'Montserrat', sans-serif;\\n      font-size: 0.75rem;\\n      color: #8b8989; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/blogs/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"main {\\n  padding: 1rem;\\n  display: grid;\\n  grid-template-columns: 1fr 1fr;\\n  grid-template-rows: minmax(15rem) minmax(15rem) minmax(15rem);\\n  grid-row-gap: 1rem;\\n  grid-column-gap: 1rem; }\\n  @media (max-width: 520px) {\\n    main {\\n      grid-column-gap: 0.5rem;\\n      padding: 1rem 0; } }\\n  main .box {\\n    background: #f1e2e2; }\\n    main .box a {\\n      text-decoration: none;\\n      color: inherit; }\\n      main .box a p,\\n      main .box a h2 {\\n        padding: 1rem; }\\n    main .box .date__time {\\n      font-family: 'Montserrat', sans-serif;\\n      font-size: 0.75rem;\\n      color: #8b8989; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/blogs/style/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -152,18 +152,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared.css */ \"./src/shared.css\");\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_shared_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style.css */ \"./src/blogs/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _DOM__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../DOM */ \"./src/DOM.js\");\n\n\n\n\n_DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__selector.addEventListener('click', e => {\n    _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__menu.classList.toggle('open');\n})\n\n\n//# sourceURL=webpack:///./src/blogs/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared.css */ \"./src/shared.css\");\n/* harmony import */ var _shared_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_shared_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style/style.css */ \"./src/blogs/style/style.css\");\n/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _DOM__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../DOM */ \"./src/DOM.js\");\n\n\n\n\n_DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__selector.addEventListener('click', e => {\n    _DOM__WEBPACK_IMPORTED_MODULE_2__[\"default\"].dropdown__menu.classList.toggle('open');\n})\n\n\n//# sourceURL=webpack:///./src/blogs/js/index.js?");
 
 /***/ }),
 
-/***/ "./src/blogs/style.css":
-/*!*****************************!*\
-  !*** ./src/blogs/style.css ***!
-  \*****************************/
+/***/ "./src/blogs/style/style.css":
+/*!***********************************!*\
+  !*** ./src/blogs/style/style.css ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/blogs/style.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/blogs/style.css?");
+eval("var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/blogs/style/style.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/blogs/style/style.css?");
 
 /***/ }),
 

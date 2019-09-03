@@ -1,35 +1,84 @@
+
 .blog__latest,
 .blog__top {
     display: none;
+}
+
+#sd--wan {
+    background-image: linear-gradient(to bottom, rgb(153, 149, 149) 0%,rgba(58, 55, 55, 0.6) 100%), url(../../images/sd-wan.jpg);
+    &:hover,
+    &:active {
+        background-image: linear-gradient(to bottom, rgba(173, 169, 169, 0.795) 0%,rgba(189, 184, 184, 0.3) 100%), url(../../images/sd-wan.jpg);
+    }
+}
+
+#july__2019 {
+    background-image: linear-gradient(to bottom, rgb(153, 149, 149) 0%,rgba(58, 55, 55, 0.6) 100%), url(../../images/nus_soc.jpg);
+    &:hover,
+    &:active {
+        background-image: linear-gradient(to bottom, rgba(173, 169, 169, 0.795) 0%,rgba(189, 184, 184, 0.3) 100%), url(../../images/nus_soc.jpg);
+    }
+}
+
+#non__stop {
+    background-image: linear-gradient(to bottom, rgb(153, 149, 149) 0%,rgba(58, 55, 55, 0.6) 100%), url(../../images/ccna.jpg);
+    &:hover,
+    &:active {
+        background-image: linear-gradient(to bottom, rgba(161, 156, 156, 0.3) 0%,rgba(49, 48, 48, 0.8) 100%), url(../../images/ccna.jpg);
+    }
+}
+
+#atec {
+    background-image: linear-gradient(to bottom, rgb(153, 149, 149) 0%,rgba(58, 55, 55, 0.6) 100%), url(../../images/contact-me_background.jpg);
+    &:hover,
+    &:active {
+        background-image: linear-gradient(to bottom, rgba(173, 169, 169, 0.795) 0%,rgba(189, 184, 184, 0.3) 100%), url(../../images/contact-me_background.jpg);
+    }
+}
+
+#review__2017 {
+    background-image: linear-gradient(to bottom, rgb(153, 149, 149) 0%,rgba(58, 55, 55, 0.6) 100%), url(../../images/self--improvement.jpg);
+    &:hover,
+    &:active {
+        background-image: linear-gradient(to bottom, rgba(173, 169, 169, 0.795) 0%,rgba(189, 184, 184, 0.3) 100%), url(../../images/self--improvement.jpg);
+    }
+}
+
+#morals {
+    background-image: linear-gradient(to bottom, rgb(153, 149, 149) 0%,rgba(58, 55, 55, 0.6) 100%), url(../../images/subtle--art.jpg);
+    &:hover,
+    &:active {
+        background-image: linear-gradient(to bottom, rgba(173, 169, 169, 0.795) 0%,rgba(189, 184, 184, 0.3) 100%), url(../../images/subtle--art.jpg);
+    }
 }
 
 .blog__template {
     margin: 1rem;
     padding: 1rem;
     margin-bottom: 2rem;
-    // background: rgba(221, 220, 220, 0.363);
-    background: linear-gradient(rgba(221, 220, 220, 0.363),rgba(221, 220, 220, 0.663));
+    // background-image: linear-gradient(to bottom, rgba(201, 190, 190, 0.795) 0%,rgba(189, 184, 184, 0.3) 100%), $img__url;
+    background-size: cover;
     border-radius: 3%;
     a {
         display: grid;
         grid-template-rows: 1rem 2rem auto;
         grid-template-areas: "featured" "title" "description";
         text-decoration: none;
-        color: inherit;
+        color: rgb(255, 255, 255);
         grid-row-gap: 1rem;
     }
-    .featured__picture {
+    .featured {
         grid-area: featured;
         font-family: 'Montserrat', sans-serif;
         font-size: 0.75rem;
-        color: rgb(139, 137, 137);
+        color: rgb(255, 255, 255);
     }
 
     .blog__title {
         grid-area: title;
         font-size: 1.6rem;
         font-weight: bold;
-        color: rgb(49, 49, 49);
+        //color: rgb(49, 49, 49);
         text-decoration: none;
         @media (max-width: 520px) {
             font-size: 1.2rem;
@@ -43,8 +92,6 @@
             font-size: 0.8rem;
         }
     }
-    &:hover,
-    &:active {
-        background: lightgray;
-    }
+
+    
 }

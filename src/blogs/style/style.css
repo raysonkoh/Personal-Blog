@@ -14,11 +14,6 @@ main {
     main .box a {
       text-decoration: none;
       color: inherit; }
-      main .box a .img__container--background {
-        background-image: url(https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/styles/article_featured_retina/public/Data-Center-Racks_0.jpg?itok=cHpNkyE_);
-        background-size: cover;
-        background-position: center;
-        height: 5rem; }
       main .box a p,
       main .box a h2 {
         padding: 1rem; }
