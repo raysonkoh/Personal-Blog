@@ -3,12 +3,12 @@ main {
   background: radial-gradient(rgba(112, 111, 111, 0.656), rgba(224, 224, 224, 0.418));
   margin: 1rem auto; }
   main .featured__picture--container {
-    width: 40%;
+    max-width: 15rem;
     margin: auto;
     text-align: center; }
     main .featured__picture--container .featured__picture {
       max-width: 100%;
-      border-radius: 50%;
+      border-radius: 10%;
       border: 2px solid black; }
   main .about__me--description {
     padding: 0.5rem;

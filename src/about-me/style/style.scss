@@ -6,12 +6,12 @@ main {
     // border-radius: 10%;
     margin: 1rem auto; 
     .featured__picture--container {
-        width: 40%;
+        max-width: 15rem;
         margin: auto;
         text-align: center;
         .featured__picture {
             max-width: 100%;
-            border-radius: 50%;
+            border-radius: 10%;
             border: 2px solid black;
         }
 
