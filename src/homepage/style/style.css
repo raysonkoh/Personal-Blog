@@ -32,10 +32,11 @@
   #morals:hover, #morals:active {
     background-image: linear-gradient(to bottom, rgba(173, 169, 169, 0.795) 0%, rgba(189, 184, 184, 0.3) 100%), url(../../images/subtle--art.jpg); }
 
-main .blogs .blog__latest {
-  display: flex;
+main .blogs .blog__latest, main .blogs .blog__top {
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: center;
+  min-height: 100%; }
 main .blogs .blog__template {
   margin: 1rem;
   padding: 1rem;
