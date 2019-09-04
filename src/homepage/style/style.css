@@ -42,6 +42,8 @@ main .blogs .blog__template {
   padding: 1rem;
   margin-bottom: 2rem;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 3%; }
   main .blogs .blog__template a {
     display: grid;

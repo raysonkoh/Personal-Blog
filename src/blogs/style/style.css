@@ -2,7 +2,7 @@ main {
   padding: 1rem; }
   main .box {
     position: relative;
-    margin: 2rem; }
+    margin: 2rem 10%; }
     main .box a {
       width: 80%;
       text-decoration: none;
@@ -17,7 +17,7 @@ main {
       main .box a .img__container {
         text-align: center; }
         main .box a .img__container img {
-          width: 80%; }
+          width: 60%; }
     main .box:hover, main .box:active {
       border-bottom: 10px solid #b8d12d;
       border-radius: 4%; }

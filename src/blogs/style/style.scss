@@ -3,7 +3,7 @@ main {
     .box {
         $root: &;
         position: relative;
-        margin: 2rem;
+        margin: 2rem 10%;
         a {
             width: 80%;
             text-decoration: none;
@@ -21,7 +21,7 @@ main {
             .img__container {
                 text-align: center;
                 img {
-                    width: 80%;
+                    width: 60%;
                 }
             }
         }

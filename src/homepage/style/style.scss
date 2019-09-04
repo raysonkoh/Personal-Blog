@@ -66,6 +66,8 @@ main {
             margin-bottom: 2rem;
             // background-image: linear-gradient(to bottom, rgba(201, 190, 190, 0.795) 0%,rgba(189, 184, 184, 0.3) 100%), $img__url;
             background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             border-radius: 3%;
             a {
                 display: grid;
