@@ -21,7 +21,10 @@ main {
             .img__container {
                 text-align: center;
                 img {
-                    width: 60%;
+                    width: 80%;
+                    @media (min-width: 800px) {
+                        width: 60%;
+                    }
                 }
             }
         }

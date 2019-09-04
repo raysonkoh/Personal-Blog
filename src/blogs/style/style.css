@@ -17,7 +17,10 @@ main {
       main .box a .img__container {
         text-align: center; }
         main .box a .img__container img {
-          width: 60%; }
+          width: 80%; }
+          @media (min-width: 800px) {
+            main .box a .img__container img {
+              width: 60%; } }
     main .box:hover, main .box:active {
       border-bottom: 10px solid #b8d12d;
       border-radius: 4%; }
